@@ -7,7 +7,7 @@ public class OpenBrowser
 	@Test
 	public void openUrl()
 	{
-		System.out.println("open url");
+		System.out.println("sample");
 	}
 
 }
