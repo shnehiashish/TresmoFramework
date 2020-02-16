@@ -3,5 +3,5 @@ import org.openqa.selenium.WebDriver;
 
 public class WebDriverTest 
 {
-	  WebDriver driver;
+	  public WebDriver driver;
 }
