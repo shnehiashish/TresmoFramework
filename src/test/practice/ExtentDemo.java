@@ -34,7 +34,6 @@ public class ExtentDemo extends WebDriverTest {
 		}
 		else
 		{
-			test.log(LogStatus.FAIL, "Test Failed");
 			test.log(LogStatus.FAIL,"Verify current page title",test.addScreenCapture(utilitiesFunction.capture(driver))+ "Titile doesn't match");
 		}
 	}
@@ -49,7 +48,6 @@ public class ExtentDemo extends WebDriverTest {
 		}
 		else
 		{
-			test.log(LogStatus.FAIL, "Test Failed");
 			test.log(LogStatus.FAIL,"Verify page title",test.addScreenCapture(utilitiesFunction.capture(driver))+ "Titile doesn't match");
 		}
 	}
